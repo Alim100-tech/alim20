@@ -1,0 +1,43 @@
+/* article.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(221, 228, 221, 0.973);
+  margin: 0;
+  padding: 20px;
+  font-weight: 1.25rem;
+} 
+
+.article-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.clickable-article {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.clickable-article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.img{
+  border-radius: 8px;
+}
+.iframe{
+  border-radius: 8px;
+}
+article h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+article p {
+  margin: 0;
+  color: #666;
+}
